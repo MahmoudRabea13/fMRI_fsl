@@ -44,8 +44,11 @@ Examine brain region *cortical&sub-cortical* with Harvard-Oxford brain strctural
 <a href="https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/Neuroanatomy-Task/Steps.txt">Click</a> for steps :smile: 
 
 *Ex: Cuneal Coretex in cortical region*
+
 ![alt text](https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/Neuroanatomy-Task/Harvard-Oxford%20Cortical%20Structural%20Atlas/Cuneal%20Coretex.png)
+
 *Ex: Right Amygdala in sub-cortical region*
+
 ![alt text](https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/Neuroanatomy-Task/Harvard-Oxford%20SubCortical%20Structural%20atlas/Right/Right%20Amygdala.png)
 
 ### 5) Scripting 1st Level Analysis :

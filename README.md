@@ -45,11 +45,12 @@ Examine brain region *cortical&sub-cortical* with Harvard-Oxford brain strctural
 
 *Ex: Cuneal Coretex in cortical region*
 
-![alt text](https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/Neuroanatomy-Task/Harvard-Oxford%20Cortical%20Structural%20Atlas/Cuneal%20Coretex.png)
+<img src ="https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/Neuroanatomy-Task/Harvard-Oxford%20Cortical%20Structural%20Atlas/Cuneal%20Coretex.png" align="center"/> 
+
 
 *Ex: Right Amygdala in sub-cortical region*
 
-![alt text](https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/Neuroanatomy-Task/Harvard-Oxford%20SubCortical%20Structural%20atlas/Right/Right%20Amygdala.png)
+<img src ="https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/Neuroanatomy-Task/Harvard-Oxford%20SubCortical%20Structural%20atlas/Right/Right%20Amygdala.png" align="center"/>
 
 ### 5) Scripting 1st Level Analysis :
 Automatically perform 1st level analysis on all 26 FLANKER dataset subjects using Unix commands.

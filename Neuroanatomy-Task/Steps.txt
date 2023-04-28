@@ -1,0 +1,9 @@
+# steps to Examine Brain region using Harvard-Oxford Structrual Atlas
+
+open fsl using fsl command in your terminal then choose FSLayers and do the following :
+
+	-From Add , Choose add standard and Add your MNI152 Standard  Ex: MNI152_T1_1mm_brain.nii.gz
+	- From Settings Ortho View 1 , Choose Atlases
+	- Check on Harvard-Oxford Atlas and start Exmaine the brain regions!
+	Note that examining both the cortical & sub-cortical regions at the same time would be comlpex and not appealing for your eyes so,
+	show/Hide each one of them individually for better examining!. 

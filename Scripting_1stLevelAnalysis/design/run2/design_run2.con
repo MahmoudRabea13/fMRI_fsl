@@ -1,0 +1,12 @@
+/ContrastName1	incongruent 
+/ContrastName2	congruent 
+/ContrastName3	incongruent-congruent 
+/NumWaves	4
+/NumContrasts	3
+/PPheights		3.020442e-01	2.991896e-01	3.009901e-01
+/RequiredEffect		1.263	1.218	1.321
+
+/Matrix
+1.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00 
+0.000000e+00 0.000000e+00 1.000000e+00 0.000000e+00 
+1.000000e+00 0.000000e+00 -1.000000e+00 0.000000e+00 

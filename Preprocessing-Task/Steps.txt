@@ -1,0 +1,19 @@
+# steps to perform Preprocessing manually for subjects in FLANKER Dataset *1st Level Analysis*
+
+	open fsl using fsl command in your terminal then choose FEAT fMRI analysis
+	In the data tab:
+	  - change Full analysis to Preprocessing 
+	  - select func file for your subject as an input  EX: sub-01_task-flanker_run-1_bold.nii.gz 
+	  - Choose your output directory
+	  
+	In Regestration tab:
+	  - check on Main structural image and place the anatomical image for your specified subject EX: sub-01_T1w.nii.gz 
+	  - in both main structrual image and Standard space: 
+	       - Change Normal Search to Full search 
+	       - Change BBR to 12DOF 
+
+	CLICK GO and all you'll have .feat folder containing all preprocessed files for your specified subject 
+
+	Notes:  - When you click on go , it will take time to fully preprocess your subject so Be Patient!
+		- the progress will be shown in an HTML log file
+		- to see your filtered image , open it using FSLayers  EX: filtered_func_data.nii.gz

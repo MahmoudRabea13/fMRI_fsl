@@ -1,0 +1,27 @@
+# steps to perform GLM manually for subjects in FLANKER Dataset *1st Level Analysis*
+
+First you need to place Make_FSL_Timings.sh in your Data folder and run it using bash command in your terminal 
+
+Then:
+
+	open fsl using fsl command in your terminal then choose FEAT fMRI analysis
+	In the data tab:
+	  -change Full analysis to Statstics 
+	  - select .feat file for your subject as an input 
+
+	In stats tab:
+	  - click on Full model setup 
+	  - change the number of original EVs to 2 
+	  - in the 1 first tab: EV name -> incongruent
+		                Basic Shape -> Custom (3 column format)
+		                input file -> choose incongruent.txt file for your subject
+		                Check on Add Temporal derivative & Uncheck on Apply Temporal Filtering
+	  - Repeat the previous step for 2 but replace incongruent with congruent
+	  - Go to Contrast&F-Tests: Contrasts -> 3
+		                    OC1 -> incongruent [1,0]
+		                    OC2 -> congruent [0,1]
+		                    OC3 -> incongruent-congruent [1,-1]
+		                    CLICK Done
+	       
+	       
+	CLICK GO and all your GLM files shall be added into .feat folder for your specified subject

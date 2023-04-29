@@ -29,16 +29,17 @@ Apply *Skull stripping / Feat time corrections / ETC* to manually preprocess you
 
 <a href="https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/Preprocessing-Task/Steps.txt">Click</a> for steps :smile: 
 
-![alt text](https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/Preprocessing-Task/Sub20-Filtered/run2/Filtered_Sub20_Run2.png)
-
+| `Filtered image` | ![alt text](https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/Preprocessing-Task/Sub20-Filtered/run2/Filtered_Sub20_Run2.png) |
+| --- | --- |
+| `Skull striped image` | ![alt text](https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/Scripting_1stLevelAnalysis/Subjects/Sub1/Skull_Striping1.png) |
 ### 3) GLM-Task :
 Manually apply General Linear Model on your data.
 
 <a href="https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/GLM-Task/Steps.txt">Click</a> for steps :smile: 
 
-| Example | GLM Design |
-| --- | --- |
-| `Sub-1` | <img src ="https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/GLM-Task/Sub10-GLMDesign/run1/design.png" align="center"/> |  
+| Example | GLM Design | Z-stat |
+| --- | --- | --- |
+| `Sub-1` | <img src ="https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/GLM-Task/Sub10-GLMDesign/run1/design.png" align="center"/> | <img src ="https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/GLM-Task/Sub8-GLMDesign/run1/rendered_thresh_zstat1.png" align="center"/> |  
  
 
 ### 4) Neuroanatomy-Task :

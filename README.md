@@ -35,8 +35,11 @@ Apply *Skull stripping / Feat time corrections / ETC* to manually preprocess you
 Manually apply General Linear Model on your data.
 
 <a href="https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/GLM-Task/Steps.txt">Click</a> for steps :smile: 
-  
-<img src ="https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/GLM-Task/Sub10-GLMDesign/run1/design.png" align="center"/> 
+
+| Example | GLM Design |
+| --- | --- |
+| `Sub-1` | <img src ="https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/GLM-Task/Sub10-GLMDesign/run1/design.png" align="center"/> |  
+ 
 
 ### 4) Neuroanatomy-Task :
 Examine brain region *cortical&sub-cortical* with Harvard-Oxford brain strctural atlas.

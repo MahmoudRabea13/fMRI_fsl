@@ -1,5 +1,12 @@
 # steps to perform Preprocessing manually for subjects in FLANKER Dataset *1st Level Analysis*
 
+1) To apply Skull stripping:
+        
+        - open fsl using fsl command in your terminal then choose BET brain extraction
+        - Choose your subject anatomical image and click go , the output skull striped image will be as for example             
+        sub-01_T1w_brain_f02.nii.gz 
+2) to apply filtereing the your func image:
+
 	open fsl using fsl command in your terminal then choose FEAT fMRI analysis
 	In the data tab:
 	  - change Full analysis to Preprocessing 

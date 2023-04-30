@@ -3,7 +3,7 @@
 # fMRI_fsl
 ### Apply 1st Level Full Analysis on FLANKER Dataset &amp; Mapping brain regions using fsl and Unix commands.
 ### To Download FLANKER dataset , Kindly click <a href="https://drive.google.com/file/d/1tS5PlfoEiUbBSSS1-sdwoLlrN6lEOfjE/view?usp=sharing">Here</a>
-*Note that all tasks were part of the Health informatics course which was an fMRI based course in the 2nd semester of the 3rd year at Biomedical Engineering Major at Cairo University*
+*Note that all tasks were part of the Health informatics course which was an fMRI based course in the 2nd semester of the 3rd year at Biomedical Engineering Department, Cairo University*
 
 ![alt text](https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/Preprocessing-Task/example_func2highres.png)
 

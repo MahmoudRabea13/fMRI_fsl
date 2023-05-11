@@ -38,6 +38,7 @@ After you prepare your design template for Both Run 1 & 2 , you will need to do 
 
 	1) move design_run1.fsf , design_run2.fsf & run_1stLevel_Analysis.sh to your Data directory
 	2) Finally, Run run_1stLevel_Analysis.sh file in the terminal using bash command
+	YOU Can use Modified_1fsf.sh instead of run_1stLevel_Analysis.sh if you wish to have only one design file and loop over it :) 
 	Note that it will take much time for the script to complete the 1st Level analysis on all the 26 subjects to , Be Patient!
 	You can track the progress from the log HTML files
 	

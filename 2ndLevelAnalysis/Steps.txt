@@ -1,0 +1,20 @@
+# Steps to do 2st Level Analysis for all your 26 FLANKER Dataset subjects
+
+At first , you will need to do 1st level analysis before doing the second level analysis
+
+Assuming you have done the 1st level analysis , follow these steps to perform 2nd level analysis:
+	
+	1) Open fsl using fsl command in your terminal then choose FEAT fMRI analysis  
+	2) instead of choosing first level analysis , choose higher level analysis
+	3) choose your 52 input fet directories
+		instead of choose each fet manually , do wildcard selection by running the following command:
+		ls -d$PWD/sub-??/func/run*
+	4) choose your output directory 
+	5) go to the stats tab:
+		- choose fixed effect inference 
+		- choose full model setup =>  - choose 26 EVs and average the two runs of each subject by placing 1 at only these specified 
+		                                runs for this subject   EX => EV3 input5: 1.0 input6: 1.0 and the rest 0 
+		 			      - go to contrast and select 26 contrasts and place 1 in only the main diagonal
+	6)Click done and GO 
+
+Note that 2nd level analysis is computationally expensive so , be patient.

@@ -1,7 +1,7 @@
 <div id = 'top'></div>
 
 # fMRI_fsl
-### Apply 1st Level Full Analysis on FLANKER Dataset &amp; Mapping brain regions using fsl and Unix commands.
+### Apply Full Analysis on FLANKER Dataset &amp; Mapping brain regions using fsl and Unix commands.
 ### To Download FLANKER dataset , Kindly click <a href="https://drive.google.com/file/d/1tS5PlfoEiUbBSSS1-sdwoLlrN6lEOfjE/view?usp=sharing">Here</a>
 *Note that all tasks were part of the Health informatics course which was an fMRI based course in the 2nd semester of the 3rd year at Biomedical Engineering Department, Cairo University*
 
@@ -15,6 +15,8 @@ ____________________________________________________________________
 * <a href="https://github.com/MahmoudRabea13/fMRI_fsl/tree/main/GLM-Task">GLM-Task</a>
 * <a href="https://github.com/MahmoudRabea13/fMRI_fsl/tree/main/Neuroanatomy-Task">Neuroanatomy-Task</a>
 * <a href="https://github.com/MahmoudRabea13/fMRI_fsl/tree/main/Scripting_1stLevelAnalysis">Scripting 1st Level Analysis</a>
+* <a href="https://github.com/MahmoudRabea13/fMRI_fsl/tree/main/2ndLevelAnalysis">2nd Level Analysis </a>
+
 ______________________________________________________________________
 
 ## Brief description:
@@ -58,5 +60,17 @@ Automatically perform 1st level analysis on all 26 FLANKER dataset subjects usin
 <a href="https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/Scripting_1stLevelAnalysis/Steps.txt">Click</a> for steps OR Watch this <a href="https://www.youtube.com/watch?v=oXSHbRlogaA">Tutorial</a> :tv:
 
 ## Credit for the Script: <a href="https://github.com/andrewjahn/FSL_Scripts/blob/master/run_1stLevel_Analysis.sh">andrewjahn</a> :raised_hands:
+
+### 6) 2nd Level Analysis:
+perform 2nd Level Analysis on the FLANKER dataset.
+
+<a href="https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/2ndLevelAnalysis/Steps.txt">Click</a> for steps :smile: 
+
+| `Design matrix for 2nd level analysis` |
+| -------------------------------------  |
+| <img src ="https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/2ndLevelAnalysis/2nd_level_analysis/2nd_level_analysis_EV.png" alt="EV"/> <img src ="https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/2ndLevelAnalysis/2nd_level_analysis/2nd_level_analysis_contrast.png" alt="Contrast"/> |
+
+
+
 
 <p align="right"><a href="#top">Back to top</a></p>

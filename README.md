@@ -68,7 +68,7 @@ perform 2nd Level Analysis on the FLANKER dataset.
 
 | `Design matrix for 2nd level analysis` |
 | -------------------------------------  |
-| <img src ="https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/2ndLevelAnalysis/2nd_level_analysis/2nd_level_analysis_EV.png" alt="EV"/> <img src ="https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/2ndLevelAnalysis/2nd_level_analysis/2nd_level_analysis_contrast.png" alt="Contrast"/> |
+| <img src ="https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/HigherLevelAnalysis/2nd_level_analysis/2nd_level_analysis_EV.png" alt="EV"/> <img src ="https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/2ndLevelAnalysis/2nd_level_analysis/2nd_level_analysis_contrast.png" alt="Contrast"/> |
 
 
 

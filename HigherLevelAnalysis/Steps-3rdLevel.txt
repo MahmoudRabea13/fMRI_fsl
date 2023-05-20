@@ -1,0 +1,30 @@
+# Steps to do 3rd Level Analysis for all your 26 FLANKER Dataset subjects
+
+At first , you will need to do 1st&2nd level analysis before doing the third level analysis
+
+Assuming you have done the 1st&2nd level analysis , follow these steps to perform 3rd level analysis on Cope3 -contrast cope-:
+	
+	1) Open fsl using fsl command in your terminal then choose FEAT fMRI analysis  
+	2) instead of choosing first level analysis , choose higher level analysis
+	3) choose 26 3D cope images as an input
+		instead of choose each cope manually , do wildcard selection by running the following command in cope3.feat/stats:
+		ls $PWD/cope* | sort -v
+	4) choose your output directory 
+	5) go to the stats tab:
+		- choose mixed effect Flame 1 inference 
+		- choose model setup wizard and check on single group average then process
+	6) go to post stats and make sure to choose cluster thresholding with:
+		Z-threshold => 3.1 	 P-threshold => 0.05
+	7)Click done and GO 
+	After you do so, repeat for cope1&cope2
+	
+To view the segnificant clusters, follow these steps:
+	-Open fsleyes
+	-Open the MNI template
+	-overlay the harvard-oxford ATLAS to check segnificant clusters in different brain
+	regions.
+	-load the thresh_zstat.nii.gz
+	-change the contrast to see the segnificant clusters Ex: Red-yellow
+	-click on the gear icon and change the interpolation configuration to be linear
+	-from view,layouts choose FEAT mode.
+

@@ -3,7 +3,7 @@
 # fMRI_fsl
 ### Apply Full Analysis on FLANKER Dataset &amp; Mapping brain regions using fsl and Unix commands.
 ### To Download FLANKER dataset , Kindly click <a href="https://drive.google.com/file/d/1tS5PlfoEiUbBSSS1-sdwoLlrN6lEOfjE/view?usp=sharing">Here</a>
-*Note that all tasks were part of the Health informatics course which was an fMRI based course in the 2nd semester of the 3rd year at Biomedical Engineering Department, Cairo University*
+*Note that all tasks were part of the Health informatics course which was an fMRI based course in the 2nd semester of the 3rd year at Biomedical Engineering Department, Cairo University under the supervision of Dr.Meena Makary*
 
 ![alt text](https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/Preprocessing-Task/example_func2highres.png)
 
@@ -81,6 +81,7 @@ Automatically perform 1st level analysis on all 26 FLANKER dataset subjects usin
 ### 6) Higher Level Analysis:
 
 perform 2nd&3rd Level Analysis on the FLANKER dataset to obtain the segnificant clusters.
+ 
 <a href="https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/HigherLevelAnalysis">Click</a> for steps :smile: 
 
 #### A) 2nd Level Analysis
@@ -90,11 +91,13 @@ perform 2nd&3rd Level Analysis on the FLANKER dataset to obtain the segnificant 
 | <img src ="https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/HigherLevelAnalysis/2nd_level_analysis/2nd_level_analysis_EV.png" alt="EV"/> <img src ="https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/HigherLevelAnalysis/2nd_level_analysis/2nd_level_analysis_contrast.png" alt="Contrast"/> |
 
 #### B) 3rd Level Analysis
-
+<div align='center'>
+ 
 | `Design matrix for 3rd level analysis` |
 | -------------------------------------  |
 | <img src ="https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/HigherLevelAnalysis/3rd_level_analysis/design.png" alt="EV"/>|
- 
+
+</div>
 
 *<p align='center'> Segnificant clusters in cope3 </p>*
 
@@ -112,7 +115,30 @@ perform 2nd&3rd Level Analysis on the FLANKER dataset to obtain the segnificant 
 <div id='roi'>
 
 ### 6) ROI Analysis:
-apply region of interest analysis 
+apply region of interest analysis with anatomical & spherical approaches
+
+<a href="https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/ROI">Click</a> for steps :smile:
+ 
+*<p align='center'> Anatomic Mask ROI </p>*
+
+|`Region`|`Screenshot`|`t-test`|
+|---|---|---|
+|`Paracingulate Gyrus`|<img src='https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/ROI/output/anatomical/PCG.png'>|<img src='https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/ROI/output/anatomical/anatomical_ttest.png'>|
+|`Right amygdala`|<img src='https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/ROI/output/anatomical/RightAmygdala.png'>|<img src='https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/ROI/output/anatomical/RightAmygdalatest.png'>|
+
+*<p align='center'> Spherical ROI </p>*
+
+|`Region`|`Screenshot`|`Bar chart`|`t-test`|
+|---|---|---| --- |
+|`1`|<img src='https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/ROI/output/region1%5B29%2C74%2C33%5D/ROI1.png'>|<img src='https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/ROI/output/region1%5B29%2C74%2C33%5D/Bar1.png'>|<img src='https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/ROI/output/region1%5B29%2C74%2C33%5D/t1.png'>|
+|`2`|<img src='https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/ROI/output/region2%5B66%2C19%2C33%5D/ROI2.png'>|<img src='https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/ROI/output/region2%5B66%2C19%2C33%5D/Bar2.png'>|<img src='https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/ROI/output/region2%5B66%2C19%2C33%5D/t2.png'>|
+|`3`|<img src='https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/ROI/output/region3%5B43%2C73%2C58%5D/ROI3.png'>|<img src='https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/ROI/output/region3%5B43%2C73%2C58%5D/Bar3.png'>|<img src='https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/ROI/output/region3%5B43%2C73%2C58%5D/t3.png'>|
+|`4`|<img src='https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/ROI/output/region4%5B23%2C65%2C47%5D/ROI4.png'>|<img src='https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/ROI/output/region4%5B23%2C65%2C47%5D/Bar4.png'>|<img src='https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/ROI/output/region4%5B23%2C65%2C47%5D/t4.png'>|
+|`5`|<img src='https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/ROI/output/region5%5B67%2C27%2C34%5D/ROI5.png'>|<img src='https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/ROI/output/region5%5B67%2C27%2C34%5D/Bar5.png'>|<img src='https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/ROI/output/region5%5B67%2C27%2C34%5D/t5.png'>|
+|`6`|<img src='https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/ROI/output/region6%5B19%2C29%2C34%5D/ROI6.png'>|<img src='https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/ROI/output/region6%5B19%2C29%2C34%5D/Bar6.png'>|<img src='https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/ROI/output/region6%5B19%2C29%2C34%5D/t6.png'>|
+|`7`|<img src='https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/ROI/output/region7%5B33%2C30%2C60%5D/ROI7.png'>|<img src='https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/ROI/output/region7%5B33%2C30%2C60%5D/Bar7.png'>|<img src='https://github.com/MahmoudRabea13/fMRI_fsl/blob/main/ROI/output/region7%5B33%2C30%2C60%5D/t7.png'>|
+
 </div>
+
 
 <p align="right"><a href="#top">Back to top</a></p>

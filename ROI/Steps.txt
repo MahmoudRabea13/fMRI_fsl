@@ -1,0 +1,42 @@
+# Steps to do ROI Analysis for all your 26 FLANKER Dataset subjects
+
+At first , you will need to do 1st,2nd and 3rd level analysis before doing the ROI level analysis
+
+Assuming you have done them level analysis , follow these steps to perform ROI level analysis:
+	
+A) Anatomical ROI
+
+	1) Create your anatomical mask:
+		-Open fsleyes and from standards open MNI152_T1_2mm.nii.gz
+		- From settings ortho view, open atlases , harvard oxford cortical atlas
+		- Choose paracingulate gyrus and save the template as PCG.nii.gz
+	2) Merge all zstats of Cope3 by running the following command in 	
+	   cope3.feat/stats      fslmerge -t allZstats.nii.gz `ls zstat* | sort -V
+
+	3) Run the following command in order to get the means	
+	fslmeants -i allZstats.nii.gz -m PCG.nii.gz
+
+	4) Now do one sample t-test using R language to obtain the results
+
+
+B) Spherical ROI Voxel location [0,20,44]
+
+	1- Open MNI template in fsleyes  and get the voxel location.
+
+	2- In the terminal go to the FLANKER directory and type the following which shall give you a centroid of these voxel locations:
+
+	fslmaths $FSLDIR/data/standard/MNI152_T1_2mm.nii.gz -mul 0 -add 1 -roi 45 1 73 1 58 1 0 1 Jahn_ROI_dmPFC_0_20_44.nii.gz -odt float 
+
+	3- Run the following command to expand this single voxel with specific raduis 5mm : 
+
+	fslmaths Jahn_ROI_dmPFC_0_20_44.nii.gz -kernel sphere 5 -fmean Jahn_Sphere_dmPFC_0_20_44.nii.gz -odt float.
+
+
+	4- Run the following command to binarize the results  :
+
+	fslmaths Jahn_Sphere_dmPFC_0_20_44.nii.gz -bin Jahn_Sphere_bin_dmPFC_0_20_44.nii.gz 
+
+	5- Get the means of this voxel location by running the following command   :
+	 fslmeants -i allZstats.nii.gz -m Jahn_Sphere_bin_dmPFC_0_20_44.nii.gz
+
+	6- Finally , do one sample t-test using R to get your results

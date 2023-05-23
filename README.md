@@ -99,7 +99,7 @@ perform 2nd&3rd Level Analysis on the FLANKER dataset to obtain the segnificant 
 
 </div>
 
-*<p align='center'> Segnificant clusters in cope3 </p>*
+*<p align='center'> Significant clusters in cope3 </p>*
 
 | `Region` |  `screenshot` |
 | -------  | -------  |

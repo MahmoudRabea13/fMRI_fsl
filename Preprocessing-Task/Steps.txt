@@ -23,4 +23,4 @@
 
 	Notes:  - When you click on go , it will take time to fully preprocess your subject so Be Patient!
 		- the progress will be shown in an HTML log file
-		- to see your filtered image , open it using FSLayers  EX: filtered_func_data.nii.gz
+		- to see your filtered image , open it using FSLeyes  EX: filtered_func_data.nii.gz

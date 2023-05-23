@@ -1,6 +1,6 @@
 # steps to perform QC for your FLANKER Dataset
 
-open fsl using fsl command in your terminal then choose FSLayers and do the following :
+open fsl using fsl command in your terminal then choose FSLeyes and do the following :
 
 	- From Add , Choose add from file and Add your func run for your subject  Ex: sub-01_task-flanker_run-1_bold.nii.gz
 	- Check for any artifact *you can see all the artifact in the attached pdf*  MRI_Artifacts.pdf
